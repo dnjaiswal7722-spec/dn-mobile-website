@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DN Mobile Online Centre</title>
+
+<style>
+body{margin:0;font-family:sans-serif;background:#f2f2f2}
+header img{width:100%}
+.title{text-align:center;background:#ff6600;color:white;padding:15px}
+
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:10px}
+.card{background:white;padding:12px;border-radius:10px;box-shadow:0 0 6px rgba(0,0,0,0.2);text-align:center}
+
+.bank{background:#007bff;color:white;padding:15px;margin:10px;border-radius:10px}
+
+.btn{display:block;text-align:center;padding:12px;margin:10px;border-radius:6px;color:white;text-decoration:none}
+.call{background:#28a745}
+.upi{background:#6f42c1}
+
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;padding:15px;border-radius:50%}
+
+iframe{width:100%;height:200px;border:0}
+
+form{background:white;padding:15px;margin:10px;border-radius:10px}
+input,textarea{width:100%;padding:10px;margin:5px 0;border-radius:5px;border:1px solid #ccc}
+
+footer{background:black;color:white;text-align:center;padding:10px}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.jpg">
+</header>
+
+<div class="title">
+<h2>DN Mobile Online Centre</h2>
+<p>Kumhiya Chauraha | 7722833899 / 9243264179</p>
+</div>
+
+<div class="grid">
+<div class="card">📱 Recharge</div>
+<div class="card">📝 Online Form</div>
+<div class="card">🏛️ Govt Yojna</div>
+<div class="card">🆔 Aadhaar</div>
+<div class="card">🖨️ Printout</div>
+<div class="card">💡 Bill Payment</div>
+</div>
+
+<div class="bank">
+<h3>🏦 Union Bank Kiosk</h3>
+<p>Cash Deposit / Withdrawal</p>
+<p>Money Transfer / AEPS</p>
+<p>Mini Statement / Account Opening</p>
+</div>
+
+<a class="btn call" href="tel:7722833899">📞 Call Now</a>
+
+<!-- UPI Button -->
+<a class="btn upi" href="upi://pay?pa=7722833899@axl=DN Mobile&cu=INR">💳 Pay via UPI</a>
+
+<!-- Google Map -->
+<iframe src="https://maps.google.com/maps?q=kumhiya&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+<!-- Online Form -->
+<form>
+<h3>📩 Contact / Service Request</h3>
+<input type="text" placeholder="Your Name" required>
+<input type="tel" placeholder="Mobile Number" required>
+<textarea placeholder="Your Work / Message"></textarea>
+<button class="btn call">Submit</button>
+</form>
+
+<a class="whatsapp" href="https://wa.me/917722833899">💬</a>
+
+<footer>
+© DN Mobile Online Centre
+</footer>
+
+</body>
+</html>
